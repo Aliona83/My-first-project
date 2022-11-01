@@ -31,4 +31,23 @@ header {
     margin-top: 30px;
 }
 
+/* Navigation links*/
+
+.navbar {
+    position: absolute;
+    font-size: 110%;
+    letter-spacing: 3px;
+}
+.navbar li {
+    float: right;
+    list-style-type: none;
+    margin-right: 30px;
+    padding: 20px;
+}
+
+
+    
+
+
+
  
