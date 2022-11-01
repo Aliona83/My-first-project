@@ -5,6 +5,30 @@
 
 }
 header {
-    color: blue;
-    background-image: url('.css/');
+    color: rgb(6, 46, 80);
+    background-image: url('./images/picture1\ -jpeg.jpg');
+    width: 100vw;
+    height: 100vh;
+    background-position: bottom;
+    background-size: cover;
+    display: flex;
+    align-items: flex-start;
+    text-align: center;
 }
+
+.text {
+    font-family: Lato sans-serif;
+    font-style: italic;
+    font-size: 20px;
+    text-align: justify;
+}
+
+  .header-content {
+    font-family: 'Merriweather' sans-serif;
+    letter-spacing: 3px;
+    font-size: 30px;
+    margin-bottom: 60px;
+    margin-top: 30px;
+}
+
+ 
