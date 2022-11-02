@@ -7,31 +7,32 @@
 }
  body {
     font-family: Merrweather, sans-serif;
-    font-weight: 300;
-    color:black;
+    font-weight: 300px;
+    color:rgb(0, 0, 0);
  }
  /* heading and logo style */
 
  h1, h2 {
-    font-family: Lato, sans-serif;
+    font-family: Merrweather, sans-serif;
     text-transform: uppercase;
-    letter-spacing: 4px;
-    color: #4d96b6;
+    letter-spacing: 3px;
+    color: #0324395d;
  }
  #logo {
    float: left;
-   font-size: 250%;
+   font-size: 270%;
+   margin-left: 15px;
  }
 
 /* navigaion style */
 
  #navbar {
-    font-size: 110%;
+    font-size: 120%;
     letter-spacing: 4px;
  }
 
  #navbar, #logo {
-   line-height: 90px;
+   line-height: 70px;
 }
 
  #navbar li {
@@ -50,4 +51,26 @@
  .active {
    border-bottom: 1px solid rgba(21, 24, 95, 0.519);
  }
+
+/* add image */
+
+.image-outer {
+  height: 500px;
+  width: 100%;
+  overflow: hidden;
+}
+
+
+#image {
+   height: 650px;
+   width: 100%;
+   background: url('./images/picture22.webp') no-repeat center center;
+}
+#type {
+  height: 600px;
+}
+#info {
+  text-align: center;
+  color: #081e2c5d;
+}
 
