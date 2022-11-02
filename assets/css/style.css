@@ -6,16 +6,48 @@
 
 }
  body {
-    font-family: 'Merrweather', sans-serif;
+    font-family: Merrweather, sans-serif;
     font-weight: 300;
-    color:rosybrown;
-    text-align: center;
+    color:black;
  }
  /* heading and logo style */
 
  h1, h2 {
-    font-family: 'Lato', sans-serif;
+    font-family: Lato, sans-serif;
     text-transform: uppercase;
+    letter-spacing: 4px;
+    color: #4d96b6;
+ }
+ #logo {
+   float: left;
+   font-size: 250%;
  }
 
+/* navigaion style */
+
+ #navbar {
+    font-size: 110%;
+    letter-spacing: 4px;
+ }
+
+ #navbar, #logo {
+   line-height: 90px;
+}
+
+ #navbar li {
+   float: right;
+   list-style-type: none;
+   margin-right: 30px;
+ }
+
+ #navbar a {
+   text-decoration: none;
+   color: inherit;
+ }
+ #navbar a:hover {
+   border-bottom: 1px solid rgba(21, 24, 95, 0.519);
+ }
+ .active {
+   border-bottom: 1px solid rgba(21, 24, 95, 0.519);
+ }
 
