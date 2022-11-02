@@ -2,52 +2,20 @@
 * {
     margin: 0;
     padding: 0;
+    border: none;
 
 }
-header {
-    color: rgb(6, 46, 80);
-    background-image: url('./images/picture1\ -jpeg.jpg');
-    width: 100vw;
-    height: 100vh;
-    background-position: bottom;
-    background-size: cover;
-    display: flex;
-    align-items: flex-start;
+ body {
+    font-family: 'Merrweather', sans-serif;
+    font-weight: 300;
+    color:rosybrown;
     text-align: center;
-}
+ }
+ /* heading and logo style */
 
-.text {
-    font-family: Lato sans-serif;
-    font-style: italic;
-    font-size: 20px;
-    text-align: justify;
-}
-
-  .header-content {
-    font-family: 'Merriweather' sans-serif;
-    letter-spacing: 3px;
-    font-size: 30px;
-    margin-bottom: 60px;
-    margin-top: 30px;
-}
-
-/* Navigation links*/
-
-.navbar {
-    position: absolute;
-    font-size: 110%;
-    letter-spacing: 3px;
-}
-.navbar li {
-    float: right;
-    list-style-type: none;
-    margin-right: 30px;
-    padding: 20px;
-}
+ h1, h2 {
+    font-family: 'Lato', sans-serif;
+    text-transform: uppercase;
+ }
 
 
-    
-
-
-
- 
