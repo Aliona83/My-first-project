@@ -9,7 +9,7 @@
     background-color: #e7eaf6;
     font-family: Merrweather, sans-serif;
     font-weight: 300px;
-    color:rgb(0, 0, 0);
+    color: rgb(0, 0, 0);
  }
  /* heading and logo style */
 
@@ -28,7 +28,7 @@
 /* navigaion style */
 
  #navbar {
-    font-size: 120%;
+    font-size: 150%;
     letter-spacing: 4px;
  }
 
@@ -70,11 +70,15 @@
 #type {
   height: 600px;
 }
+/* Title of second page */
+
 #info {
   text-align: center;
   color: #38598b;
   font-size: 200%;
 }
+
+/* create Login form */
 
 form {
   width: 290px;
@@ -121,7 +125,7 @@ button {
   width: 100%;
   margin-top: 30px;
   background-color: #a2a8d3;
-  color: #080710;
+  color: #38598b;
   padding: 10px 0;
   font-size: 18px;
   font-weight: 600;
@@ -138,10 +142,34 @@ form .options div {
   padding: 5px 10px 10px 5px;
   text-align: center;
   cursor: pointer;
-  color: black;
+  color: #113f67;
   background-color: #a2a8d3;
 }
 form .options div:hover {
   background-color: #a2a8d3;
 
 }
+/* info about fountains */
+
+.container {
+  width: 92%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+ .box {
+  width: 30%;
+  float: left;
+  background-color: #e7eaf6;
+  border-radius: 5px;
+  box-shadow: 0 7px 7px #a2a8d3;
+  margin: 40px 20px;
+ }
+ .box img {
+  width: 100%;
+  height: 200px;
+  border-radius: 5px 5px 0 0;
+ }
+  .box h3 {
+    margin-left: 15px;
+  }
