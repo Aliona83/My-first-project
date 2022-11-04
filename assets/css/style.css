@@ -72,7 +72,9 @@
 }
 /* Title of second page */
 
-#info {
+#info { 
+  margin: 0;
+  padding:auto;
   text-align: center;
   color: #38598b;
   font-size: 200%;
@@ -172,4 +174,42 @@ form .options div:hover {
  }
   .box h3 {
     margin-left: 15px;
+  }
+  .box p {
+    font-size: 16px;
+    line-height: 28px;
+    height: 40%;
+    padding: 0 15px 15px 15px;
+  }
+  #btn {
+    background-color: #38598b;
+    color: white;
+    padding: 10px 15px;
+    margin: 15px;
+    border-radius: 5px;
+    float: right;
+  }
+  #btn:hover {
+    background-color: #5e5e5e;
+    box-shadow: 0 5px 5px #5e5e5e;
+  }
+  #fountains-fact {
+    height: 600px;
+  }
+  #left-fact {
+    padding-top: 30px;
+    width: 33%;
+    float: left;
+    background-color: blue;
+  }
+  #right-fact {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+    background-color: green;
+  }
+  #center-fact {
+    width: 33%;
+    margin: 0 auto;
+    background-color: gray;
   }
