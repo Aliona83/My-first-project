@@ -200,7 +200,6 @@ form .options div:hover {
     padding-top: 30px;
     width: 33%;
     float: left;
-    background-color: blue;
   }
   #right-fact {
     padding-top: 30px;
@@ -208,8 +207,21 @@ form .options div:hover {
     float: right;
     background-color: green;
   }
+  
   #center-fact {
     width: 33%;
     margin: 0 auto;
     background-color: gray;
+  }
+  hr {
+    border-top: 1px solid #a2a8d3;
+    width: 100%;
+    margin: 5px 0;
+  }
+  .left-fact-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
   }
