@@ -205,7 +205,6 @@ form .options div:hover {
     padding-top: 30px;
     width: 33%;
     float: right;
-    background-color: green;
   }
   
   #center-fact {
@@ -225,3 +224,16 @@ form .options div:hover {
     clear: both;
     margin-bottom: 50px;
   }
+  .right-fact-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+  }
+ .right-fact-heading h2 {
+  text-align:right;
+ }
+ .right-fact-heading p {
+  text-align: right;
+ }
