@@ -20,7 +20,7 @@
  }
  #logo {
    float: left;
-   font-size: 270%;
+   font-size: 220%;
    margin-left: 15px;
  }
 
@@ -152,41 +152,16 @@ form .options div:hover {
 }
 /* info about fountains */
 
-.grid-container {
-  display: grid;
-  gap: 10rem;
-  grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+.flex-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.flex-container > div {
+  flex: 33%
 }
  
- #box img {
-  height: 400px;
-  margin: 15px;
-  padding: 0 25px  25px 25px;
-  width: 600px;
  
- }
-  #box h3 {
-    margin-left: 15px;
-  }
-  #box p {
-    font-size: 16px;
-    line-height: 30px;
-    height: 40%;
-    padding: 15px 15px 15px 15px;
-  }
-  #btn {
-    background-color:#38598b ;
-    color: white;
-    padding: 15px 15px;
-    border-radius: 5px;
-    float:left;
-    margin: 5px;
-
-  }
-  #btn:hover {
-    background-color: #5e5e5e;
-    box-shadow: 0 5px 5px #5e5e5e;
-  }
   #fountains-fact {
     height: 600px;
   }
@@ -251,18 +226,38 @@ form .options div:hover {
   height: 100%;
   border-radius: 50%;
  }
-  .footer {
+ .footer-col ul {
+  list-style: none;
+ }
+ .footer-col li {
+  font-size: 16px;
+ }
+ .footer-col h2 {
+  font-family: Merweather, sans-serif;
+  font-size: 18px;
+ }
+ .container {
+  max-width: 1400px;
+  height: 300px;
+  background-color: #e7eaf6;
+  margin-top: 20px;
+ }
+ .row {
+  display: flex;
+  flex-wrap: wrap;
+ }
+ .footer {
+  background-color: #a2a8d3;
+  padding: 75px;
+ }
+ .footer-col {
+  width: 25%;
+  margin-top: 23px;
+  margin-left: 70px;
+ }
+ 
+ a,i {
+  padding: 5px;
+ }
 
-  }
-  .row {
-    background-color: #a2a8d3;
-    height: 400px;
-    display:inline-flex;
-    margin-top: 200px;
-  
-   
-    
-  }
-  .footer-col {
-    justify-content: space-between;
-  }
+ 
