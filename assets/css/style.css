@@ -3,12 +3,14 @@
     margin: 0;
     padding: 0;
     border: none;
+    box-sizing: border-box;
 
 }
  body {
     background-color: #e7eaf6;
     font-family: Merweather, sans-serif;
     color: rgb(0, 0, 0);
+    
  }
  /* heading and logo style */
 
@@ -154,13 +156,45 @@ form .options div:hover {
 
 .flex-container {
   display: flex;
-  flex-flow: row wrap;
-  justify-content: space-between;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+  height: auto;
 }
-.flex-container > div {
-  flex: 33%
+
+.box {
+  width: 20%;
+  height:auto;
+  margin: 20px;
+  box-sizing: border-box;
+  font-size: 100px;
+
 }
- 
+ img {
+  float: none;
+  margin: 15px 15px 15px 15px;
+  width: 400px;
+ height: 400px;
+ }
+ p {
+  width: 400px;
+  max-height: 400px;
+  padding: 0 20px;
+  margin-left: 5%;
+  margin-right: 50%;
+ }
+ h3 {
+  margin-top: 20px;
+  font-size: large;
+  text-align: center;
+ }
+ #btn {
+  display: inline-block;
+  border-radius: 5px;
+  margin: 5%;
+  width: 400px;
+
+ }
  
   #fountains-fact {
     height: 600px;
