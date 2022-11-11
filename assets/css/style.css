@@ -3,8 +3,6 @@
     margin: 0;
     padding: 0;
     border: none;
-    box-sizing: border-box;
-
 }
  body {
     background-color: #e7eaf6;
@@ -168,19 +166,18 @@ form .options div:hover {
   margin: 20px;
   box-sizing: border-box;
   font-size: 100px;
-
 }
  img {
   float: none;
   margin: 15px 15px 15px 15px;
   width: 400px;
- height: 400px;
+  height: 400px;
  }
  p {
+  display: flex;
   width: 400px;
   max-height: 400px;
   padding: 0 20px;
-  margin-left: 5%;
   margin-right: 50%;
  }
  h3 {
@@ -188,11 +185,11 @@ form .options div:hover {
   font-size: large;
   text-align: center;
  }
- #btn {
-  display: inline-block;
+ .btn {
+  color: black;
   border-radius: 5px;
   margin: 5%;
-  width: 400px;
+  width: 250px;
 
  }
  
