@@ -163,10 +163,10 @@ form .options div:hover {
 
 .box {
   width: 20%;
-  height:auto;
+  height: auto;
   margin: 20px;
   box-sizing: border-box;
-  font-size: 100px;
+  font-size: 20px;
 }
  .flex-container img {
   float: none;
