@@ -102,6 +102,7 @@ header > nav {
 
 .contact-h2 {
   text-align: center;
+  
 }
 
 
@@ -111,6 +112,7 @@ header > nav {
   width: 100%;
   display: flex;
   justify-content: space-evenly;
+  margin-top: 35px;
   
 }
  form h2 {
@@ -146,34 +148,52 @@ input[type=email] {
 #button:hover,
 #button:focus {
   color: #fff;
+  border: 2em;
+
+  
 }
 
-#dubai,
-#wealth,
-#montjuis,
-#bawlagio,
-#buckingham,
+#dubai {
+  position: relative;
+}
+#wealth {
+  position: relative;
+}
+#montjuic {
+  position: relative;
+  
+}
+
+#bellagio {
+  position: relative;
+}
+#buckingham {
+  position: relative;
+  
+}
 #king {
-  display: block;
-  height: 20px;
-  width: 20px;
+  display: inline-flex;
+  height: 15px;
+  width: 15px;
   background-color: #113f67;
-  border-radius: 50%;
+  border-radius: 30%;
 }
 
 .radio-pair {
   display: flex;
-  color: #fff;
+  color: #000;
   justify-content: flex-start;
   align-items: center;
   width: 157px;
-  margin: 0 auto;
+  margin:0 auto;
+ 
+  
 }
 
 .form-section label {
   display: block;
   text-align: center;
-  margin: 10px;
+  margin: 3px;
 }
 
 
@@ -353,9 +373,23 @@ footer>p {
     clear: both;
     width: 100%;
     float: left;
-    padding-left: 15px;
+    
   }
+  .cyrcle {
+    clear: left;
+  }
+  .circle-cover {
+    background: url('./images/circle3.jpg') no-repeat center center;
+    height: auto;
+    border-radius: 50%;
+    float: left;
+   }
+  }
+@media screen and (max-width: 600px) {
+  
 }
+
+  
 
  
 
