@@ -344,11 +344,14 @@ footer>p {
   color: #fff;
 }
 
- /* media quaries */
+ /* media quaries  */
  @media screen and (max-width: 1200px) {
-  form {
-   clear: both;
-   margin-top: 90%;
+body {
+  background-color: green;
+}
+  #navbar {
+    float: none;
+    width: 100%;
   }
   #fountains-fact {
     width: 67%;
@@ -369,28 +372,43 @@ footer>p {
     float: left;
     padding: 0;
   }
+  .hr {
+    display:none;
+   }
+   
   #center-fact {
-    clear: both;
     width: 100%;
     float: left;
+    margin-right: 40px;
+    padding-right: 40px;
+  }
+ 
     
   }
-  .cyrcle {
-    clear: left;
-  }
-  .circle-cover {
-    background: url('./images/circle3.jpg') no-repeat center center;
-    height: auto;
-    border-radius: 50%;
-    float: left;
-   }
-  }
-@media screen and (max-width: 600px) {
   
+/* media queries */
+@media screen and (max-width: 894px) {
+ body {
+  background-color: yellow;
+ }
+ .flex-container {
+  width: 50%;
+  flex: 50%;
+  flex-direction: column;
+
+}
 }
 
-  
+/* media queries */
+@media screen and (max-width: 300px) {
+  body {
+    background-color: red;
+  }
+  flex-container {
+    flex: 100%;
+    flex-direction: column;
+  }
+    
+}
 
- 
 
- 
