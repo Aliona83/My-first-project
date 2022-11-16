@@ -92,20 +92,6 @@ header > nav {
 
 /* Contact us */
 
-
-.container {
-  display: flex;
-  min-height: 100vh;
-  flex-direction: column;
-  flex-grow: 2;
-}
-
-.contact-h2 {
-  text-align: center;
-  
-}
-
-
 .form-section {
   padding-top: 15%;
   background: url('./images/david-becker-rrfdqjJWwmU-unsplash.webp');
@@ -200,30 +186,31 @@ input[type=email] {
 /* info about fountains */
 
 .flex-container {
+  height: 500px;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
-  width: 100%;
-  height: auto;
+ 
 }
 .box {
   box-sizing: border-box;
   font-size: 15px;
-  width: 600px;
+  margin-left: 25px;
 }
+
  .flex-container img {
   float: none;
-  margin: 15px 15px 15px 15px;
+  margin: 5px 5px 5px 5px;
   width: 400px;
-  height: 400px;
+  height: 200px;
   border-radius: 5px;
  }
  .flex-container p {
-  display: flex;
+  display:inline-block;
   width: 400px;
-  max-height: 400px;
-  padding: 0 20px;
-  margin-right: 50%;
+  height: 100px;
+  
+  
  }
  .flex-container h3 {
   margin-top: 20px;
@@ -233,10 +220,7 @@ input[type=email] {
  
  
  /* few fact about fountains */
-  #fountains-fact {
-    height: 300px;
-    width: 100%;
-  }
+
   #left-fact {
     padding-top: 15px;
     width: 33%;
@@ -273,7 +257,7 @@ input[type=email] {
     text-indent: 40px;
   }
  .right-fact-heading h2 {
-  text-align:right;
+  text-align: right;
  }
  .right-fact-heading p {
   text-align: right;
@@ -286,13 +270,13 @@ input[type=email] {
  #circle {
   width: 300px;
   height: 300px;
-  padding: 30px;
+  padding: 15px;
   border-style: solid;
   border-width: 1px;
   border-color: black;
   border-radius: 50%;
   margin:0 auto;
-  margin-top: 13px;
+  margin-top: 10px;
  }
  #circle-cover {
   background: url('./images/circle3.jpg') no-repeat center center;
@@ -303,23 +287,26 @@ input[type=email] {
  /* create footer */
 
  .footer {
+  min-height: 15px;
   position: fixed;
-  left: 0;
-  bottom: 0;
+  left: 0px;
+  bottom: 0px;
   width: 100%;
-  background-color: #38598b;
-  color: white;
+  background-color: #a2a8d3;
+  color: #38598b;
   text-align: center;
 }
 
 footer p {
-  text-align: center;
+  text-align: left;
   font-weight: bold;
+  margin-left: 45px;
+
 }
 
 footer>p {
   font-size: x-small;
-  text-align: center;
+  text-align: left;
   margin: 5px;
   padding: 5px;
   border: 2px #6f6f6f;
@@ -328,39 +315,37 @@ footer>p {
 
 
 .social {
-  list-style: none;
-  text-align: center;
+  height: 15px;
+  list-style:none;
+  text-align:center;
   letter-spacing: 3px;
-  margin: 5px 25px 5px 25px;
+  margin: 5px 5px 5px 5px;
+ 
+
 }
 
 .social>li {
   display: inline;
+  padding-top: 25px;
 }
 
 .social i {
   font-size: 150%;
   margin: 5px 25px 5px 25px;
-  color: #fff;
+  color: #38598b
 }
+/* media queries */
 
- /* media quaries  */
- @media screen and (max-width: 1200px) {
-body {
-  background-color: green;
-}
-  #navbar {
+
+@media screen and (max-width: 1200) {
+  #navbar>ul>li { 
+    font-size: 60%;
     float: none;
-    width: 100%;
+    display: block;
   }
-  #fountains-fact {
-    width: 67%;
-    height: 1200px;
-    margin: 0 auto;
- }
   #welcome {
-    padding: 30px 0;
     margin: 0;
+    font-size: small;
   }
   #left-fact {
     width: 100%;
@@ -372,42 +357,103 @@ body {
     float: left;
     padding: 0;
   }
-  .hr {
-    display:none;
-   }
-   
+  #circle {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+  }
   #center-fact {
+    height: 200px;
     width: 100%;
     float: left;
     margin-right: 40px;
     padding-right: 40px;
+    padding-top: 5px;
   }
- 
-    
-  }
+   footer {
+    float: none;
+    width: 100%;
+   }
+  .flex-container {
+      width: 100%;
+      flex: 100%;
+      flex-direction: column;
+      margin: 15px 15px;
+    }
+    .flex-container img {
+      height: 100px;
+      width: 400px;
+    }
   
-/* media queries */
-@media screen and (max-width: 894px) {
- body {
-  background-color: yellow;
+
+#circle-cover {
+  height: 100%;
+  border-radius: 50%;
+  padding: 5px;
  }
- .flex-container {
-  width: 50%;
-  flex: 50%;
-  flex-direction: column;
-
+ #logo {
+  float: left;
+  font-size: 170%;
+  margin-left: 5px;
+  padding: 5px;
 }
 }
-
-/* media queries */
-@media screen and (max-width: 300px) {
-  body {
-    background-color: red;
+/* media querie for desktop max- width 1000px */
+@media screen and (max-width: 1000px) {
+  #welcome {
+    margin: 0;
+    font-size: small;
   }
-  flex-container {
-    flex: 100%;
+  .flex-container {
+    display:flex;
     flex-direction: column;
+    flex-wrap: wrap;
   }
-    
+  .box {
+    width: 50%;
+    height: 90vh;
+  }
+  #left-fact {
+    width: 100%;
+    float: left;
+    padding: 0;
+  }
+  #right-fact {
+    width: 100%;
+    float: left;
+    padding: 0;
+  }
+  #circle {
+    width: 300px;
+    height: 300px;
+    float: left;
+}
+  #center-fact {
+    height: 200px;
+    width: 100%;
+    float: left;
+    margin-right: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+  }
+  #circle-cover {
+    height: 100%;
+    border-radius: 50%;
+    padding: 5px;
+   }
+   footer {
+    float: none;
+    width: 100%;
+   }
 }
 
+
+/* media querie for desktop max- width 400px */
+@media screen and (max-width: 911px) {
+  .flex-container {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    
+  }
+}
