@@ -31,6 +31,9 @@ header {
   background-color: #fff;
   width: 100%;
 }
+header {
+  display: inline;
+}
 
 header > nav {
   display: inline;
@@ -40,10 +43,6 @@ header > nav {
     font-size: 150%;
     letter-spacing: 4px;
  }
-
- #navbar, #logo {
-   line-height: 70px;
-}
 
  #navbar li {
    float: right;
@@ -78,18 +77,8 @@ header > nav {
    background: url('./images/picture2newnewcopy\ webp\ copy.webp') no-repeat center center;
 }
 #type {
-  height: 300px;
+  height: 500px;
 }
-/* Title of second page */
-
-#info { 
-  margin: 0px;
-  padding-top: 1%;
-  text-align: center;
-  color: black;
-  font-size: 200%;
-}
-
 /* Contact us */
 
 .form-section {
@@ -186,16 +175,21 @@ input[type=email] {
 /* info about fountains */
 
 .flex-container {
-  height: 500px;
   display: flex;
   flex-direction: row;
-  justify-content: space-around;
+  justify-content: space-between;
+  height: 500px;
+  padding: auto;
  
 }
 .box {
   box-sizing: border-box;
   font-size: 15px;
   margin-left: 25px;
+  margin-top: 25px;
+  padding-top: 25px;
+  
+
 }
 
  .flex-container img {
@@ -203,17 +197,13 @@ input[type=email] {
   margin: 5px 5px 5px 5px;
   width: 400px;
   height: 200px;
-  border-radius: 5px;
+  border-radius: 10px;
  }
  .flex-container p {
   display:inline-block;
   width: 400px;
-  height: 100px;
-  
-  
  }
  .flex-container h3 {
-  margin-top: 20px;
   font-size: 25px;
   text-align: center;
  }
@@ -338,24 +328,25 @@ footer>p {
 
 
 @media screen and (max-width: 1200) {
-  #navbar>ul>li { 
-    font-size: 60%;
+  #navbar { 
     float: none;
     display: block;
   }
   #welcome {
     margin: 0;
-    font-size: small;
+    font-size: 45px;
   }
   #left-fact {
     width: 100%;
     float: left;
     padding: 0;
+   
   }
   #right-fact {
     width: 100%;
     float: left;
     padding: 0;
+    margin-left: 5px;
   }
   #circle {
     width: 300px;
@@ -374,17 +365,6 @@ footer>p {
     float: none;
     width: 100%;
    }
-  .flex-container {
-      width: 100%;
-      flex: 100%;
-      flex-direction: column;
-      margin: 15px 15px;
-    }
-    .flex-container img {
-      height: 100px;
-      width: 400px;
-    }
-  
 
 #circle-cover {
   height: 100%;
@@ -402,17 +382,25 @@ footer>p {
 @media screen and (max-width: 1000px) {
   #welcome {
     margin: 0;
-    font-size: small;
+    font-size: 260%;
   }
-  .flex-container {
-    display:flex;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
-  .box {
-    width: 50%;
-    height: 90vh;
-  }
+
+#info { 
+  margin: 0px;
+  padding-top: 10%;
+  text-align: center;
+  color: black;
+  font-size: 220%;
+}
+.flex-container {
+  flex-direction: column;
+ height: 1000px;
+}
+.flex-container img {
+  height: 200px;
+  width: 200px;
+}
+
   #left-fact {
     width: 100%;
     float: left;
@@ -426,7 +414,7 @@ footer>p {
   #circle {
     width: 300px;
     height: 300px;
-    float: left;
+    margin-left: 25%;
 }
   #center-fact {
     height: 200px;
@@ -441,6 +429,13 @@ footer>p {
     border-radius: 50%;
     padding: 5px;
    }
+   .form-section {
+    width: 70%;
+    margin: auto;
+   }
+   .form-section h2 {
+    margin-left: 65px;
+   }
    footer {
     float: none;
     width: 100%;
@@ -448,12 +443,122 @@ footer>p {
 }
 
 
-/* media querie for desktop max- width 400px */
-@media screen and (max-width: 911px) {
+/* media querie for desktop max- width 750px */
+@media screen and (max-width: 835px) {
+  #navbar li {
+    font-size: 19px;
+  }
+  #info {
+    font-size: 130%;
+  }
+  #logo {
+    font-size: 22px;
+  }
+  #welcome {
+    font-size: 32px;
+  }
+  #welcome h2 {
+    font-size: 20px;
+  }
   .flex-container {
+    flex-direction: column;
     width: 100%;
-    flex-direction: row;
-    justify-content: space-around;
-    
+  }
+  .flex-container h3 {
+    font-size: 20px;
+    float: left;
+  }
+  .flex-container img {
+    height: 200px;
+    width: 300px;
+  }
+ 
+  .box p {
+    width: 50%;
+  
+  }
+  
+  #circle {
+    width: 300px;
+    height: 300px;
+    margin-left: 25%;
   }
 }
+
+/* media querie for desktop max- width 600px */
+@media screen and (max-width: 600px) {
+  #navbar {
+    font-size: 10px;
+    font-weight: bold;
+  }
+  #info {
+    font-size: 22px;
+  }
+  #logo {
+    font-size: 18px;
+    text-align: center;
+  }
+  #circle {
+    width: 180px;
+    height: 180px;
+    float: left;
+    margin-left: 25px;
+  }
+ 
+  #welcome {
+    margin: 0;
+    font-size: 22px;
+  }
+  #info {
+    font-size: 18px;
+  }
+  .flex-container {
+    flex-direction: column;
+  }
+  .flex-container h3 {
+    font-size: medium;
+  }
+ 
+  .box p {
+    display: flex;
+     width: 50%;
+  }
+
+}
+@media screen and (max-width: 400px) {
+  #navbar li {
+    font-size: 15px;
+    font-weight: bold
+  }
+  #logo {
+    margin-left: 55px;
+    font-size: larger;
+  }
+  .form-section h2 {
+    font-size: 15px;
+    margin-left: 10px;
+    margin-top: 35px;
+  }
+  #fountains-fact {
+margin-top: 25px;
+  }
+  .flex-container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .flex-container h3 {
+    font-size: 20px;
+    float: left;
+    margin-top: 35px;
+  }
+  }
+  .flex-container img {
+    height: 200px;
+    width: 300px;
+  }
+ 
+  .flex-container p {
+    width: 80%;
+    display: inline-block;
+    height: 1200px;
+  }
