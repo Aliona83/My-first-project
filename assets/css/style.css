@@ -178,17 +178,19 @@ input[type=email] {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  height: 500px;
  
  
 }
-.box {
+.box1, 
+.bo2, 
+.box3, 
+.box4, 
+.box5, 
+.box6 {
   font-size: 15px;
   margin-left: 25px;
   margin-top: 25px;
   padding-top: 25px;
-  
-
 }
 
  .flex-container img {
@@ -358,15 +360,7 @@ footer>p {
     padding-right: 40px;
     padding-top: 5px;
   }
-  .flex-container {
-   flex-direction: column;
-  }
-  .box {
-    font-size: 15px;
-    margin-left: 25px;
-    margin-top: 25px;
-    padding-top: 25px;
-}
+ 
   
   .form-section {
     margin-top: 55px;
@@ -379,7 +373,7 @@ footer>p {
     width: 100%;
    }
 
-#circle-cover {
+ #circle-cover {
   height: 100%;
   border-radius: 50%;
   padding: 5px;
@@ -404,12 +398,6 @@ footer>p {
   text-align: center;
   color: black;
   font-size: 220%;
-}
-.flex-container img {
- flex-direction: column( 1, 2fr);
-}
-.flex-container p{
-  display: block;
 }
 
   #left-fact {
@@ -472,27 +460,18 @@ footer>p {
     font-size: 20px;
   }
   .flex-container {
-    flex-direction: column;
-    margin: 30px 30px 30px 30px;
-   
+    display: flex;
+    margin: 55px;
+    padding: 50px;
+    flex-flow: wrap;
   }
-  .flex-container h3 {
-    font-size: 20px;
-    float: left;
+  .flex-container p{
+    display: block;
   }
-  .flex-container img {
-    flex-direction: row;
-    width: 50%;
-    margin: 0px 30px 0px 30px;
-   
+  .box {
+    display: flex;
   }
-  .box p {
-    width: 50%;
-    margin: 30px 30px 30px 30px;
-    display: inline-flex;
-   
-  }
-  
+
   #circle {
     width: 300px;
     height: 300px;
@@ -528,16 +507,17 @@ footer>p {
     font-size: 18px;
   }
   .flex-container {
-  display: grid;
-  grid-template-columns: 200px;
-  width: 20px;
-
+    display: flex;
+    margin: 55px;
+    padding: 50px;
+    flex-flow: wrap;
+  }
+  .flex-container p{
+    display: block;
   }
   .box {
-    flex-direction: row;
+    display: flex;
   }
-  
-
   
   .footer p {
     font-size: x-small;
@@ -568,25 +548,46 @@ footer>p {
    margin-top: 25px;
   }
   .flex-container {
-    flex-direction: column;
+    display: flex;
+    flex-flow: wrap;
     width: 100%;
-    height: 600px;
-  }
-  .flex-container h3 {
-    font-size: 20px;
+  } 
+  .flex-container img {
+    margin: auto;
     float: left;
-    margin-top: 35px;
+  }
+  .box1, p, img {
+    width: 80%;
+    display:inline-flex;
+    flex-flow: wrap;
+  }
+  .box2, p {
+    width: 80%;
+    display: flex;
+    flex-flow: wrap;
+  }
+  .box3,p {
+    width: 80%;
+    display:inline-flex;
+    flex-flow: wrap;
+  }
+  .box4, p {
+    width: 80%;
+    display:inline-flex;
+    flex-flow: wrap;
+  }
+  .box5 {
+    width: 80%;
+    display:inline-flex;
+    flex-flow: wrap;
+  }
+  .box6 {
+    width: 80%;
+    display:inline-flex;
+    flex-flow: wrap;
   }
   
-  .flex-container img {
-    width: 80%;
-  }
- 
-  .flex-container p {
-    width: 80%;
-    display: inline-block;
-    height: 1000px;
-  }
+
   .form-section {
     margin-top: 55px;
     height: 100%;
@@ -597,6 +598,6 @@ footer>p {
     margin-left: 1px;
    }
    .social li {
-    margin: 2px 2px 2px 2spx;
+    margin: 2px 2px 2px 2px;
    }
 }
