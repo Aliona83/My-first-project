@@ -435,32 +435,33 @@ footer>p {
     width: 100%;
     float: left;
   }
-  .box1, p, img {
-   padding: 28px;
-   margin: 2px;
+  .box1, p {
+    width: 60%;
+    display: flex;
+    flex-flow: wrap
   }
   .box2, p {
-    width: 80%;
+    width: 60%;
     display: flex;
     flex-flow: wrap;
   }
   .box3,p {
-    width: 80%;
+    width: 60%;
     display:inline-flex;
     flex-flow: wrap;
   }
   .box4, p {
-    width: 80%;
+    width: 60%;
     display:inline-flex;
     flex-flow: wrap;
   }
   .box5 {
-    width: 80%;
+    width: 60%;
     display:inline-flex;
     flex-flow: wrap;
   }
   .box6 {
-    width: 80%;
+    width: 60%;
     display:inline-flex;
     flex-flow: wrap;
   }
@@ -472,9 +473,16 @@ footer>p {
    .form-section h2 {
     margin-left: 65px;
    }
-   footer {
-    float: none;
-    width: 100%;
+    .footer p {
+      font-size: x-small;
+      text-align: center;
+      margin-left: 1px;
+      padding: 5px;
+     }
+     .social li {
+      margin: 2px 2px 2px 2px;
+     }
+   
    }
 }
 
