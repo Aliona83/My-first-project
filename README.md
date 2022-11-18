@@ -1,2 +1,2 @@
 # Amazing Fountains
-This is my first project. 
+This is my first project with Code Institute. I created this web .....
