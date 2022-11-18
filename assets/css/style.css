@@ -438,7 +438,7 @@ footer>p {
   .box1, p {
     width: 60%;
     display: flex;
-    flex-flow: wrap
+    flex-flow: wrap;
   }
   .box2, p {
     width: 60%;
@@ -484,7 +484,6 @@ footer>p {
      }
    
    }
-}
 
 
 /* media querie for desktop max- width 750px */
@@ -560,7 +559,9 @@ footer>p {
   #logo {
     font-size: 18px;
     text-align: center;
+    font-family: Merweather, sans-serif;
   }
+  
   #circle {
     width: 180px;
     height: 180px;
@@ -571,10 +572,9 @@ footer>p {
   #welcome {
     margin: 0;
     font-size: 22px;
+    font-family: Merweather, sans-serif;
   }
-  #info {
-    font-size: 18px;
-  }
+  
   .flex-container {
     float: left;
     display: flex;
@@ -582,14 +582,14 @@ footer>p {
     width: 100%;
   } 
   
-  .box1, p, img {
-    width: 100%;
+  .box1, p {
+    width: 80%;
     display:inline-flex;
     flex-flow: wrap;
   }
   .box2, p {
     width: 80%;
-    display: flex;
+    display: inline-flex;
     flex-flow: wrap;
   }
   .box3,p {
@@ -613,21 +613,35 @@ footer>p {
     flex-flow: wrap;
   }
   .footer p {
-    font-size: x-small;
+    font-size: xx-small;
     text-align: center;
     margin-left: 1px;
+   }
+   .social li {
+    margin: 2px 2px 2px 2px;
+    font-size: xx-small;
    }
   }
 
 @media screen and (max-width: 400px) {
   #navbar li {
-    font-size: 15px;
+    font-size: 13px;
     font-weight: bold;
-  
   }
+  #welcome {
+    font-size: 18px;
+    font-family: Merweather, sans-serif;
+  }
+  #left-fact h2 {
+    font-size: 16px;
+  }
+   #right-fact h2 {
+    font-size: 16px;
+   }
   #logo {
     margin-left: 55px;
     font-size: larger;
+    font-family: Merweather, sans-serif;
   }
   .flex-container {
     margin: auto;
@@ -684,11 +698,12 @@ footer>p {
     height: 100%;
    }
    .footer p {
-    font-size: x-small;
+    font-size: xx-small;
     text-align: center;
     margin-left: 1px;
    }
    .social li {
     margin: 2px 2px 2px 2px;
+    font-size: xx-small;
    }
 }
