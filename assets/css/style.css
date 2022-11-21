@@ -30,9 +30,11 @@ header {
   position: fixed;
   background-color: #fff;
   width: 100%;
+  
 }
 header {
   display: inline;
+
 }
 
 
@@ -63,7 +65,7 @@ header {
 /* add image */
 
 .image-outer {
-  height: 10px;
+  height: 40px;
   width: 90%;
   overflow: hidden;
 }
@@ -74,9 +76,7 @@ header {
    width: 100%;
    background: url('./images/picture2newnewcopy\ webp\ copy.webp') no-repeat center center;
 }
-#type {
-  height: 500px;
-}
+
 /* Contact us */
 
 .form-section {
@@ -218,14 +218,14 @@ input[type=email] {
  /* few fact about fountains */
 
   #left-fact {
-    padding-top: 15px;
     width: 33%;
     float: left;
+    padding: 30px;
   }
   #right-fact {
-    padding-top: 15px;
     width: 33%;
     float: right;
+    padding: 30px;
   }
   
   #center-fact {
@@ -489,7 +489,7 @@ footer>p {
    .footer {
     width: 100%;
     float: none;
-    transform: translate(-.1rem , -2ex );
+   
    }
     .footer p {
       font-size: small;
@@ -572,10 +572,9 @@ footer>p {
 @media screen and (max-width: 768px) {
   
   #circle {
-    width: 180px;
-    height: 180px;
-    float: left;
-    margin-left: 25px;
+    width: 260px;
+    height: 260px;
+    
   }
  
   #welcome {
@@ -649,6 +648,10 @@ footer>p {
     font-size: larger;
     font-family: Merweather, sans-serif;
   }
+  #circle {
+    width: 160px;
+    height: 160px;
+  }
   #left-fact h2 {
     font-size: 16px;
   }
@@ -669,14 +672,12 @@ footer>p {
     display: flex;
     flex-flow: wrap;
     width: 100%;
-    
   } 
   
   .box1, p, img  {
     display: flex;
     width: 70%;
     flex-flow: wrap;
-    
   }
   .box2, p {
     width: 70%;
@@ -741,8 +742,14 @@ footer>p {
     font-size: larger;
     font-family: Merweather, sans-serif;
   }
+  #circle {
+    width: 160px;
+    height: 160px;
+  }
   .footer {
     text-align: left;
+    float: none;
+    
    }
    .footer p {
     font-size: x-small;
