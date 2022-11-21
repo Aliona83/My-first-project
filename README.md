@@ -1,3 +1,3 @@
 # Amazing Fountains
 This is my first project with Code Institute. I created this web .....
-! [https://ui.dev/amiresponsive?url=https://aliona83.github.io/my-first-project/] (Image from Am I Responsive)
+! [Image from Am I Responsive] (https://ui.dev/amiresponsive?url=https://aliona83.github.io/my-first-project/)
