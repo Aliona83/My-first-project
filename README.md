@@ -1,3 +1,3 @@
 # Amazing Fountains
-This is my first project with Code Institute. I created this web .....
+This is my first project with Code Institute. This project is about the most beautiful fountains in the world. It was created for people who like to travel and love the fountains like me. This project will help them get information about each fountains, where the fountains it is located, and why it's so special.I was motivated to create this project so that people could find out what beautiful fountains exist in the world; they are dancing fountains, the highest fountains. After spending at least 5 minutes near these fountains, you fill yourself up with energy and get amazing fillings, and with this project, I want to motivate other people to visit them and enjoy the pleasure that I got when I saw Dubai’s tallest fountain.GIT 
 ! [Image from Am I Responsive] (https://ui.dev/amiresponsive?url=https://aliona83.github.io/my-first-project/)
