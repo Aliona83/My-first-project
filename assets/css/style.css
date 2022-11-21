@@ -578,8 +578,8 @@ footer>p {
 /* media querie for desktop max- width 600px */
 @media screen and (max-width: 600px) {
   #navbar {
-    font-size: 20px;
-    font-weight: 700px;
+    font-size: 18px;
+    font-weight: 500px;
   }
   #navbar {
     float: left;
@@ -657,7 +657,10 @@ footer>p {
 @media screen and (max-width: 400px) {
   #navbar li {
     font-size: 13px;
-    font-weight: bold;
+    font-weight: 500px;
+  }
+  #navbar {
+    float: left;
   }
   #welcome {
     font-size: 18px;
@@ -688,12 +691,14 @@ footer>p {
     display: flex;
     flex-flow: wrap;
     width: 100%;
+    
   } 
   
   .box1, p, img  {
     display: flex;
     width: 70%;
     flex-flow: wrap;
+    
   }
   .box2, p {
     width: 70%;
@@ -736,6 +741,34 @@ footer>p {
    .footer p {
     font-size: small;
     margin-left: 1px;
+   }
+   .social li {
+    font-size: xx-small;
+   }
+}
+@media screen and (max-width: 320px) {
+  #navbar li {
+    font-size: 14px;
+    font-weight: bold;
+    margin: 10px;
+    margin-left: 15px;
+    
+  }
+  #navbar {
+    float: left;
+    
+  }
+  #logo {
+    margin-left: 35px;
+    font-size: larger;
+    font-family: Merweather, sans-serif;
+  }
+  .footer {
+    text-align: left;
+   }
+   .footer p {
+    font-size: x-small;
+   
    }
    .social li {
     font-size: xx-small;
