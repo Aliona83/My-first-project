@@ -511,8 +511,8 @@ footer>p {
    }
 
 
-/* media querie for desktop max- width 750px */
-@media screen and (max-width: 750px) {
+/* media querie for desktop max- width 802px */
+@media screen and (max-width: 802px) {
   #navbar li {
     font-size: 16px;
   }
@@ -575,8 +575,8 @@ footer>p {
   }
 }
 
-/* media querie for desktop max- width 600px */
-@media screen and (max-width: 600px) {
+/* media querie for desktop max- width 768px */
+@media screen and (max-width: 768px) {
   #navbar {
     font-size: 18px;
     font-weight: 500px;
