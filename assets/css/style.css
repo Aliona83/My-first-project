@@ -220,12 +220,12 @@ input[type=email] {
   #left-fact {
     width: 33%;
     float: left;
-    padding: 30px;
+    padding: 50px;
   }
   #right-fact {
     width: 33%;
     float: right;
-    padding: 30px;
+    padding: 50px;
   }
   
   #center-fact {
@@ -345,13 +345,13 @@ footer>p {
   #left-fact {
     width: 100%;
     float: left;
-    padding: 0;
+    padding: 50px;
    
   }
   #right-fact {
     width: 100%;
     float: left;
-    padding: 0;
+    padding: 50px;
     margin-left: 5px;
   }
   #circle {
@@ -529,7 +529,18 @@ footer>p {
     flex-flow: wrap;
     width: 100%;
   } 
-  
+  #left-fact {
+    width: 100%;
+    float: left;
+    padding: 50px;
+   
+  }
+  #right-fact {
+    width: 100%;
+    float: left;
+    padding: 50px;
+    margin-left: 5px;
+  }
   .box1, p, img {
     width: 80%;
     display:inline-flex;
@@ -658,7 +669,18 @@ footer>p {
    #right-fact h2 {
     font-size: 16px;
    }
-  
+   #left-fact {
+    width: 100%;
+    float: left;
+    padding: 50px;
+   
+  }
+  #right-fact {
+    width: 100%;
+    float: left;
+    padding: 50px;
+    margin-left: 5px;
+  }
   .flex-container img {
     width: auto;
     height: auto;
