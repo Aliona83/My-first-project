@@ -573,13 +573,16 @@ footer>p {
 /* media querie for desktop max- width 600px */
 @media screen and (max-width: 600px) {
   #navbar {
-    font-size: 10px;
+    font-size: 15px;
     font-weight: bold;
+  }
+  #navbar li {
+    font-size: 10px;
   }
   #info {
     font-size: 22px;
   }
-  #logo {
+  #logo {margin-left: 18px;
     font-size: 18px;
     text-align: center;
     font-family: Merweather, sans-serif;
