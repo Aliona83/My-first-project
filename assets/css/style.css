@@ -454,7 +454,6 @@ footer>p {
     width: 60%;
     display: inline-flex;
     flex-flow: wrap;
-  
   }
   
   .box3, p {
@@ -468,24 +467,18 @@ footer>p {
     width: 60%;
     display:inline-flex;
     flex-flow: wrap;
-    
   }
   
   .box5 {
     width: 60%;
     display:inline-flex;
     flex-flow: wrap;
-    
-  
   }
   .box6 {
     width: 60%;
     display:inline-flex;
     flex-flow: wrap;
-    
-
   }
-
    .form-section {
     margin-top: 55px;
     height: 100%;
@@ -577,21 +570,6 @@ footer>p {
 
 /* media querie for desktop max- width 768px */
 @media screen and (max-width: 768px) {
-  #navbar {
-    font-size: 18px;
-    font-weight: 500px;
-  }
-  #navbar {
-    float: left;
-  }
-  #info {
-    font-size: 22px;
-  }
-  #logo {
-    font-size: 18px;
-    text-align: center;
-    font-family: Merweather, sans-serif;
-  }
   
   #circle {
     width: 180px;
