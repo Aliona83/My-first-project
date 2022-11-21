@@ -80,10 +80,12 @@ header {
 /* Contact us */
 
 .form-section {
-  padding-top: 16%;
+  padding-top: 12%;
+  padding-bottom: 15%;
   background: url('./images/david-becker-rrfdqjJWwmU-unsplash.webp');
   width: 100%;
-  height: 100%;
+  
+   
 }
  form h2 {
   color: black;
@@ -200,7 +202,7 @@ input[type=email] {
  .flex-container img {
   margin: 5px 25px 25px 5px;
   width: 400px;
-  height: 400px;
+  height: 300px;
   border-radius: 10px;
  }
  .flex-container p {
@@ -510,9 +512,9 @@ footer>p {
 
 
 /* media querie for desktop max- width 750px */
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 750px) {
   #navbar li {
-    font-size: 16px;
+    font-size: 19px;
   }
   #info {
     font-size: 130%;
@@ -573,16 +575,13 @@ footer>p {
 /* media querie for desktop max- width 600px */
 @media screen and (max-width: 600px) {
   #navbar {
-    font-size: 15px;
-    font-weight: bold;
-  }
-  #navbar li {
     font-size: 10px;
+    font-weight: bold;
   }
   #info {
     font-size: 22px;
   }
-  #logo {margin-left: 18px;
+  #logo {
     font-size: 18px;
     text-align: center;
     font-family: Merweather, sans-serif;
