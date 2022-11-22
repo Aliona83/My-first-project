@@ -19,11 +19,13 @@ On the left site there are Logo "Amazing fountains"of the webside.
 
 Also, there are other navigations links on the right side: Home,About and Contact Us.On the home, page readers will get to know interesting facts about fountains. The reader will learn when the first fountain was created, why they called fountains, where the first fountain was created, and what is the oldest fountain in the world.
 ## About 
-Here site users will see all six of the most beautiful fountains and their photos, will also  to read about each fountain and find out  where they are   located.
+Here site users will see all six of the most beautiful fountains and their photos, will also can to read about each fountain and find out  where they are  located. 
 ## Contact Us
+
 # Colour Scheme 
 ***
-textColor="#e7eaf6"
+The colours were chose as they complemented the light blue picture on main page.
+#e7eaf6
 # Footer
 ***
 
@@ -42,9 +44,20 @@ This first project put me in touch with variuos uses of the programming language
 
 # Test 
 ***
+## Validator HTML Testing
+* HTML page About were returned with some errors, I had to remove all speces in the name of each picture, that have been loaded on the page. 
+* Also I had remove "id" attribute and replace on "class", the only one  "id" has to be on the page . All errors had been fixed.
+
+<img width="1191" alt="Screenshot 2022-11-22 at 21 11 14" src="https://user-images.githubusercontent.com/111147735/203421952-257f866e-5e2d-4dd6-937c-fc0fe7f14372.png">
+
+<img width="1215" alt="Screenshot 2022-11-22 at 21 12 40" src="https://user-images.githubusercontent.com/111147735/203422403-14e2517f-0734-4a84-a52a-e81411d94a3e.png">
+
+## Validator CSS Testing
+CSS no errors were returned when passing through the official W3C validator at time of submission.
+
+<img width="1215" alt="Screenshot 2022-11-22 at 21 13 00" src="https://user-images.githubusercontent.com/111147735/203422224-01563644-4b5b-4fd9-ad24-82d18683a2f5.png">
 
 
 
 
 
-[def]: https://aliona83.github.io/my-first-project/
