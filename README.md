@@ -28,7 +28,7 @@ The Contact Us form is easily made for the user to contact us, available to leav
 
 ***
 # Colour Scheme
-The colours were chose as they complemented the light blue, purple colour of picture on main page.
+The colors were chosen as they complemented the light blue and purple color of the picture on the main page.
 * #e7eaf6
 * #a2a8d3
 * #385986
@@ -38,8 +38,7 @@ The colours were chose as they complemented the light blue, purple colour of pic
 
 ***
 # Footer
-***
-The footer section includes links to the relevant social media sites.The links will open to a new tab to allow easy navigation for the user.
+The footer section includes links to relevant social media sites. The links will open to a new tab to allow easy navigation for the user.
 <img width="1507" alt="Screenshot 2022-11-24 at 10 48 17" src="https://user-images.githubusercontent.com/111147735/203765715-6affd0e4-0adf-41c1-8586-18d35f0e3778.png">
 
 ***
@@ -59,8 +58,8 @@ This first project put me in touch with variuos uses of the programming language
 The test were done using iOS devicess: laptops, tablets , mobile phones. 
 
 ## Validator HTML Testing
-* HTML page About were returned with some errors, I had to remove all speces in the name of each picture, that have been loaded on the page. 
-* Also I had remove "id" attribute and replace on "class", the only one  "id" has to be on the page . All errors had been fixed.
+* HTML page About was returned with some errors, I had to remove all spaces in the name of each picture, that has been loaded on the page. 
+* Also I had to remove the "id" attribute and replace it with "class", the only one  "id" has to be on the page. All errors had been fixed.
 
 <img width="1191" alt="Screenshot 2022-11-22 at 21 11 14" src="https://user-images.githubusercontent.com/111147735/203421952-257f866e-5e2d-4dd6-937c-fc0fe7f14372.png">
 
@@ -79,15 +78,20 @@ I have confirmed that the colour and fonts are easy to read ans accesssible by r
 <img width="901" alt="Screenshot 2022-11-22 at 21 41 22" src="https://user-images.githubusercontent.com/111147735/203647363-54b14095-85d5-495a-a3c9-e5f1c5552914.png">
 
 ***
-# Media 
+# Media
+Images had been loaded from 
 [Shutterstock](https://www.shutterstock.com/discover/10-free-stock-images?c3apidt=p52922776581&coupon_code=pick10free&gclid=CjwKCAiAyfybBhBKEiwAgtB7fsNh-ETgjIHhQeP0K3j9UzXrRoUWrsoukrhqQFK0s1qmb0X3DOzDbhoCLBoQAvD_BwE&gclsrc=aw.ds&kw=free%20pictures%20and%20images)
 
-Images had been loaded from .......
+
+
+***
+# Contents
+The hardest part of this project for me was creating columns of 3 in each row on the second page, for this, I used flex element. It was very hard to understand how it worked. Source, where I got knowledge, was [Stackoverflow](https://stackoverflow.com/)
+# Learning Resources 
+* Code Institute
+* [CSS-Tricks]()https://css-tricks.com/ -Used to learn about flexbox and how to apply it on my own development.
+* [W3schools](https://www.w3schools.com/).
+* Udemy
 
 
 
-
-
-
-
-[def]: https://fonts.google.com/
